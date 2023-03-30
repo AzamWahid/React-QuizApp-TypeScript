@@ -10,7 +10,6 @@ type Props = {
   totalQuestions: number;
 
 }
-
 export const QuestionCard: React.FC<Props> = ({ question, answers, callback, userAnswer, questionNum, totalQuestions }) => {
   return (
     <Wrapper>
